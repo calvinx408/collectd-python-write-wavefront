@@ -25,6 +25,7 @@
 
 import Queue, socket, threading, time, re
 from collections import namedtuple
+import sys
 
 try:
     import collectd
